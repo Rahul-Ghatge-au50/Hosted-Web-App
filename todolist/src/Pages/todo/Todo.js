@@ -30,7 +30,7 @@ function Todo() {
             userId: id
         }
 
-        const res = await axios.post(`http://localhost:5001/api/todo/${id}`, data);
+        await axios.post(`http://localhost:5001/api/todo/${id}`, data);
         setName('');
         setDesc('');
     }

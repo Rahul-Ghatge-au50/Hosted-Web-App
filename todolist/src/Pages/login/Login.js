@@ -67,7 +67,7 @@ function Login() {
                                 className="login-input"
                                 value={password}
                                 onChange={(e) => setPassword(e.target.value)} />
-                            <p style={{color:'red'}} >{message}</p>
+                            {error ? <p style={{color:'red'}} >{message}</p> : '' }
                             <div className="login-btn">
                                 <button type="submit" className="btn">Login</button>
                             </div>

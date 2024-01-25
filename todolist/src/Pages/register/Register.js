@@ -10,7 +10,6 @@ function Register() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
     const navigate = useNavigate();
 
 
@@ -22,7 +21,7 @@ function Register() {
             password:password
         }
 
-        const res = await axios.post('http://localhost:5001/api/register',data);
+        await axios.post('http://localhost:5001/api/register',data);
         navigate('/login');
     }
 
