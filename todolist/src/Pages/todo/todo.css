@@ -1,0 +1,116 @@
+
+
+.todo-cont{
+    width: 800px;
+    height: fit-content;
+    margin: 50px auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgba(14, 13, 13, 0.836);
+    padding: 0px 0px 50px  0px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: white;
+}
+
+.todo-logout{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.todo-form{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 4px;
+    justify-content: space-between;
+    background-color: rgb(75, 74, 74);
+}
+
+.todo-label{
+    font-size: 14px;
+    color: white;
+}
+
+.todo-input{
+    border: 1px solid gold;
+    outline: none;
+    width: 170px;
+    padding: 3px 0px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+
+.Add-btn{
+    border: none;
+    outline: none;
+    background-color: rgb(245, 168, 24);
+    padding: 7px 10px;
+    color: white;
+    border-radius: 40px;    
+    cursor: pointer;
+}
+
+
+.todo-list{
+    display: flex;
+    align-items: center;
+    width: 550px;
+    margin-top: 5px;
+    padding: 0px 10px;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: rgb(75, 74, 74);
+}
+
+.todo-data{
+    text-align: left;
+}
+
+.todo-data>h6{
+    margin-bottom: 0px;
+    margin-top: 1px;
+    color: orange;
+    font-size: 18px;
+}
+
+.todo-data>p{
+    margin-top: 0px;
+    color: white;
+    font-size: smaller;
+}
+
+.comp-btn{
+    border:1px solid lightgreen;
+    outline: none;
+    color:green;
+    padding: 5px 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(233, 252, 233);
+}
+
+
+.dele-btn{
+    padding: 8px 10px;
+    border-radius: 40px;
+    outline: none;
+    background-color: rgb(250, 202, 202);
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
