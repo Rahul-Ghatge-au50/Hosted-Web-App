@@ -1,0 +1,70 @@
+.register-cont {
+    width: 800px;
+    height: fit-content;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    background-color: white;
+}
+
+.register-img-cont {
+    width: 400px;
+    height: 400px;
+}
+
+.profile-image {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+}
+
+.register-input {
+    width: 100%;
+    padding: 13px 25px 5px 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+#error {
+    padding-left: 50px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: red;
+}
+
+.register-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 230px;
+}
+
+
+.btn {
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(0, 110, 255);
+}
