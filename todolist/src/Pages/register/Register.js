@@ -21,7 +21,7 @@ function Register() {
             password:password
         }
 
-        await axios.post('http://localhost:5001/api/register',data);
+        await axios.post('https://to-do-app-tw99.onrender.com/api/register',data);
         navigate('/login');
     }
 

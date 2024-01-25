@@ -16,7 +16,7 @@ function Todo() {
 
     useEffect(() => {
         const getData = async () => {
-            const res = await axios.get(`http://localhost:5001/api/todo/${id}`);
+            const res = await axios.get(`https://to-do-app-tw99.onrender.com/api/todo/${id}`);
             setTodoList(res.data.data);
         }
         getData();
@@ -30,7 +30,7 @@ function Todo() {
             userId: id
         }
 
-        await axios.post(`http://localhost:5001/api/todo/${id}`, data);
+        await axios.post(`https://to-do-app-tw99.onrender.com/api/todo/${id}`, data);
         setName('');
         setDesc('');
     }
@@ -38,12 +38,12 @@ function Todo() {
     const handleComp = async (e, id) => {
         e.stopPropagation();
         alert('Congratulation you have completed a task');
-        await axios.delete(`http://localhost:5001/api/todo/${id}`);
+        await axios.delete(`https://to-do-app-tw99.onrender.com/api/todo/${id}`);
     }
 
     const handleDelete = async (e, id) => {
         e.stopPropagation();
-        await axios.delete(`http://localhost:5001/api/todo/${id}`);
+        await axios.delete(`https://to-do-app-tw99.onrender.com/api/todo/${id}`);
     }
 
     const handleLogout = () => {
